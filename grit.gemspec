@@ -1,15 +1,15 @@
 Gem::Specification.new do |s|
   s.specification_version = 2 if s.respond_to? :specification_version=
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.rubygems_version = '1.3.5'
+  #s.rubygems_version = '1.3.5'
 
-  s.name              = 'grit'
+  s.name              = 'trans-grit'
   s.version           = '2.5.0'
   s.date              = '2012-04-22'
   s.rubyforge_project = 'grit'
 
   s.summary     = "Ruby Git bindings."
-  s.description = "Grit is a Ruby library for extracting information from a git repository in an object oriented manner."
+  s.description = "Grit is a Ruby library for extracting information from a git repository in an object oriented manner. This release is from the styx fork, which corrects issue for use with Ruby 2.0."
 
   s.authors  = ["Tom Preston-Werner", "Scott Chacon"]
   s.email    = 'tom@github.com'
